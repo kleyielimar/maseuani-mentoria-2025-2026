@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>María Inés Dávalos Vázquez — Professional Profile</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600;700&family=Lato:wght@300;400;700;900&display=swap');
+
+  @page { size: letter; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root{
+    --ink:#1B1B2F;
+    --brand:#0000CD;
+    --brand2:#3D1CC6;
+    --violet:#8233FF;
+    --pink:#E0158C;
+    --yellow:#B8860B;
+    --panel:#ECEAFB;
+    --panel-line:#D9D3F5;
+    --rule:#C9C2EF;
+    --paper:#FFFFFF;
+  }
+
+  html, body{
+    background:#DAD5EE;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    color: var(--ink);
+  }
+
+  .page{
+    width: 8.5in;
+    height: 11in;
+    margin: 0.25in auto;
+    background: var(--paper);
+    box-shadow: 0 0 18px rgba(0,0,0,0.18);
+    padding: 0.32in 0.5in 0.26in 0.5in;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .eyebrow{
+    font-size: 8pt; letter-spacing: 2.5px; font-weight: 700;
+    color: var(--brand2); text-transform: uppercase; margin-bottom: 3px;
+  }
+  h1.name{
+    font-family: 'Merienda', cursive;
+    font-size: 21pt; font-weight: 700; color: var(--brand); margin-bottom: 3px;
+  }
+  .subhead{
+    font-size: 9.3pt; font-style: italic; color: var(--brand2); margin-bottom: 6px;
+  }
+  .contactline{
+    font-size: 8.1pt; font-weight: 700; color: var(--brand2);
+    border-bottom: 2px solid var(--brand); padding-bottom: 5px; margin-bottom: 8px;
+  }
+  .contactline span{ margin-right: 6px; }
+  .dot{ color: var(--rule); margin: 0 6px; font-weight: 400; }
+
+  h2.sec{
+    font-size: 8.4pt; letter-spacing: 1.2px; font-weight: 900; text-transform: uppercase;
+    color: var(--brand); border-bottom: 1.5px solid var(--brand);
+    padding-bottom: 2px; margin: 8px 0 4px 0;
+  }
+  h2.sec:first-child{ margin-top: 0; }
+
+  p.body-text{
+    font-size: 8pt; line-height: 1.32; text-align: justify; margin-bottom: 4px;
+  }
+
+  ul.tight{ list-style: none; margin: 0 0 2px 0; }
+  ul.tight li{
+    font-size: 7.6pt; line-height: 1.24; position: relative; padding-left: 10px; margin-bottom: 3px;
+  }
+  ul.tight li::before{
+    content: "–"; color: var(--brand); position: absolute; left: 0; font-weight: 700;
+  }
+  ul.tight li b{ color: var(--brand2); }
+  .yr{ color: var(--brand2); font-weight: 700; }
+
+  .datarow{ font-size: 7.4pt; line-height: 1.26; margin-bottom: 5px; }
+  .datarow .k{
+    display:block; font-weight: 700; color: var(--brand2); text-transform: uppercase;
+    font-size: 6.2pt; letter-spacing: 0.4px; margin-bottom: 1px;
+  }
+
+  .grid{
+    display: grid;
+    grid-template-columns: 2.5in 4.7in;
+    column-gap: 0.2in;
+    flex: 1; min-height: 0;
+  }
+
+  .col-left{
+    background: var(--panel);
+    border-left: 3px solid var(--brand);
+    padding: 9px;
+  }
+  .col-left h2.sec{ font-size: 7.8pt; }
+
+  .col-right{
+    border-left: 1px solid var(--panel-line);
+    padding-left: 14px;
+  }
+  .col-right h2.sec{ font-size: 8.2pt; }
+
+  .footer{
+    margin-top: 7px; padding-top: 4px; border-top: 1.5px solid var(--rule);
+    text-align: center; font-size: 7.1pt; letter-spacing: 0.8px;
+    color: var(--brand2); font-style: italic; font-weight: 700;
+  }
+
+  @media print{
+    body{ background: none; }
+    .page{ box-shadow: none; margin: 0; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+
+  <div class="eyebrow">Professional Profile</div>
+  <h1 class="name">María Inés Dávalos Vázquez</h1>
+  <div class="subhead">Founder &amp; Program Director, Dance Studio Maseuani · Certified Dance Movement Therapist (CID UNESCO)</div>
+  <div class="contactline">
+    <span>dancestudiomaseuani@gmail.com</span><span class="dot">|</span>
+    <span>(925) 291-7670</span><span class="dot">|</span>
+    <span>maseuanidance.com</span><span class="dot">|</span>
+    <span>Bay Point, California</span>
+  </div>
+
+  <div class="grid">
+
+    <!-- LEFT -->
+    <div class="col-left">
+      <h2 class="sec">Academic Background</h2>
+      <div class="datarow"><span class="k">2004–2008</span>B.A. in Performing Arts, concentration in Folkloric Dance — Universidad de Guadalajara, Mexico</div>
+      <div class="datarow"><span class="k">2004</span>High School Diploma — Guadalajara, Mexico</div>
+
+      <h2 class="sec">Languages</h2>
+      <div class="datarow"><span class="k">Spanish</span>Native / Professional</div>
+      <div class="datarow"><span class="k">English</span>Intermediate</div>
+
+      <h2 class="sec">Recognitions</h2>
+      <ul class="tight">
+        <li>Associate Credential — Instituto de Investigación y Difusión de la Danza Mexicana A.C.</li>
+        <li>Certificate of Appreciation — Monument Impact (2025)</li>
+        <li>Certificate of Participation — MEE Cumbre (2026)</li>
+        <li>Certificate of Recognition — The Latina Center, Women, Health &amp; Leadership Program (2026)</li>
+        <li>Certificate of Participation &amp; Practical Application — Strategic AI Workshop for Entrepreneurs, facilitated by Kleyi Elimar Rivero (ICF-Certified Professional Coach), in partnership with Prospera Coop</li>
+      </ul>
+
+      <h2 class="sec">Links</h2>
+      <div class="datarow" style="font-size:6.9pt; line-height:1.5;">
+        maseuanidance.com<br>
+        facebook.com/dancestudioMaseuani
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="col-right">
+      <h2 class="sec">Professional Summary</h2>
+      <p class="body-text">María Inés Dávalos Vázquez is the founder and director of Dance Studio Maseuani, a bilingual dance and movement studio based in the East Bay of the San Francisco Bay Area, California. With a background in Performing Arts with a concentration in Folkloric Dance from the Universidad de Guadalajara and over a decade of teaching experience, she has developed a comprehensive approach that blends traditional Mexican dance with therapeutic, disability-informed methodology. Her work is driven by a personal motivation — disability within her own family — which led her to build culturally relevant, genuinely accessible programming for schools, community organizations, and Spanish-speaking families.</p>
+
+      <h2 class="sec">Professional Experience</h2>
+      <ul class="tight">
+        <li><span class="yr">2022–present</span> — <b>Founder, Director &amp; Choreographer</b>, Dance Studio Maseuani, Bay Point, CA</li>
+        <li><span class="yr">2023–present</span> — <b>Folkloric Dance Instructor</b>, Ambrose Community Center, Bay Point, CA</li>
+        <li><span class="yr">2024–present</span> — <b>Dance Instructor, After-School Program</b>, Antioch Unified School District, CA</li>
+        <li><span class="yr">2023–2024</span> — <b>Dance Instructor</b>, Congreso Familiar, Hayward / Oakley, CA</li>
+        <li><span class="yr">2006–2007</span> — <b>Dance Instructor</b>, DIF, Guadalajara, Jalisco, Mexico</li>
+      </ul>
+
+      <h2 class="sec">Certifications &amp; Specialized Training</h2>
+      <ul class="tight">
+        <li><span class="yr">2026</span> — Strategic AI Workshop for Entrepreneurs (4 sessions, 6 live hours), Kleyi Elimar Rivero / Prospera Coop</li>
+        <li><span class="yr">2026</span> — The Speaking Master: Public Speaking Techniques, Dámaris Echevarría Comunicación</li>
+        <li><span class="yr">2026</span> — Explora Economías Alternativas Program, Prospera</li>
+        <li><span class="yr">2026</span> — Digital Literacy Course (8 hrs), Tech Exchange</li>
+        <li><span class="yr">2025</span> — Caminos Virtual Program (20 weeks: Office, QuickBooks, English &amp; professional development), Monument Impact</li>
+        <li><span class="yr">2024–2025</span> — Women, Health &amp; Leadership Program, The Latina Center</li>
+        <li><span class="yr">2023–2025</span> — Entrepreneurship courses and workshops, The Latina Center / Prospera / Renaissance / Mexican Consulate of San Francisco</li>
+        <li><span class="yr">2022</span> — Art Therapy (11 sessions); Creative Art Therapy Course; Creative Percussion Workshop</li>
+        <li><span class="yr">2021</span> — Dance Movement Therapy, Level 1, International Dance Council (CID); Humanistic Therapeutic Dance, Senso Danza; Inclusive Dance Workshop; Interdisciplinary Dance Workshop</li>
+        <li><span class="yr">2020</span> — Dance Teacher Training; Course in Pedagogy and Didactics of Children&#8217;s Dance</li>
+        <li><span class="yr">2019</span> — Zumba Instructor Certification, San Francisco, CA</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer">María Inés Dávalos Vázquez &middot; Dance Studio Maseuani &middot; East Bay of the San Francisco Bay Area, California</div>
+
+</div>
+
+</body>
+</html>
